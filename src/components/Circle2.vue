@@ -168,8 +168,8 @@
                 base_speed: 0.25,
                 loop_sec: '4s',
                 calc_mode: 'spline',
-                key_splines: '0.42 0.0 0.58 1.0 ; 0.42 0.0 0.58 1.0',
-                key_times: '0 ; 0.5 ; 1'
+                key_splines: '0.42 0.0 0.58 1.0;0.42 0.0 0.58 1.0',
+                key_times: '0;0.5;1'
             }
         },
         components: {

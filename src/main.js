@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Circle1 from './components/Circle1.vue'
 import Circle2 from './components/Circle2.vue'
+import Circle3 from './components/Circle3.vue'
 import App from './App.vue'
 
 Vue.use(VueRouter)
@@ -11,6 +12,7 @@ const routes = [
     { path: '/', component: Circle1 },
     { path: '/circle1', component: Circle1 },
     { path: '/circle2', component: Circle2 },
+    { path: '/circle3', component: Circle3 },
 ]
 
 const router = new VueRouter({
